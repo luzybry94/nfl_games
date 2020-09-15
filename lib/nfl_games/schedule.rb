@@ -1,0 +1,3 @@
+class NflGames::Schedule
+    
+end

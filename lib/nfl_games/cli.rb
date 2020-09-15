@@ -3,8 +3,8 @@ class NflGames::CLI
     def greeting
         puts "Welcome to NFL Games! Your one stop shop for scores and schedules!"
         puts "Which team's shedule would you like to see?"
-        #scrape teams
-        #list teams
+        NflGames::Scraper.team_scraper #scrape teams
+        list_teams #list teams
 
     end
 
